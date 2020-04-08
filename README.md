@@ -2,6 +2,8 @@
 
 Demo for  element14  Connected Cloud Challenge 
 
+More detail: 
+https://www.element14.com/community/community/design-challenges/connected-cloud-challenge-with-cypress-and-aws-iot/blog/2020/04/08/mbed-rtos-thread-send-capsense-data-to-aws-3
 
 ## Quick Install 
 1. Install mbed cli
@@ -12,7 +14,7 @@ Demo for  element14  Connected Cloud Challenge
 6. mbed compile -t GCC_ARM -m CY8CKIT_062_WIFI_BT -f --sterm
 5. place the following code in the main.c file.
 
-###WIFI Driver issue under Mbed
+### WIFI Driver issue under Mbed
 Be notice, by reference of latest PSOC6 library, the Mbed
 mbed-os/targets/TARGET_Cypress/TARGET_PSOC6/TARGET_CY8CKIT_062_WIFI_BT/SDIO_HOST/SDIO_HOST.c
 may require update to following content to solve the problem of WIFI cannot be startup when boot.
