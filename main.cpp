@@ -145,17 +145,6 @@ int main()
 
 
 
-//	cy_rslt_t result = cybsp_init();
-//	CY_ASSERT(result == CY_RSLT_SUCCESS);
-//	__enable_irq();
-
-
-	  //Thread wifithread(initNetworkInterface);
-
-	 // ThisThread::sleep_for(2000);
-
-
-
 
    initNetworkInterface();
 
@@ -168,18 +157,6 @@ int main()
 
    lcd_msg_delay_close("Mbed: %d.%d.%d",2,1000,MBED_MAJOR_VERSION, MBED_MINOR_VERSION, MBED_PATCH_VERSION);
 
-  // GUI_Exit();
-
-
-
-
-  //initNetworkInterface();
-
-
-
-
-
-    // Initialise the digital pin LED1 as an output
 
 
 
