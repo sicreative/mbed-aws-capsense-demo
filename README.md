@@ -1,5 +1,7 @@
 # Demo of Cypress CY8CKIT-062-WIFI-BT send capsense to AWS 
 
+ Licensed under the Apache License, Version 2.0
+
 Demo for  element14  Connected Cloud Challenge 
 
 More detail: 
