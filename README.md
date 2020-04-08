@@ -12,7 +12,7 @@ https://www.element14.com/community/community/design-challenges/connected-cloud-
 4. mbed deploy
 5. update the aws_config.h for AWS cert and endpoint, update network.h for WIFI SSID and password.
 6. mbed compile -t GCC_ARM -m CY8CKIT_062_WIFI_BT -f --sterm
-5. place the following code in the main.c file.
+
 
 ### WIFI Driver issue under Mbed
 Be notice, by reference of latest PSOC6 library, the Mbed
